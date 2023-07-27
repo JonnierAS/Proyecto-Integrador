@@ -9,11 +9,12 @@ const SearchBar = ({onSearch}) => {
    };
    
    const agregar = () => onSearch(id)
-
+   
    return (
       <div>
          <input type='search' onChange={handleChange} value={id}  />
          <button onClick={agregar}>Agregar</button>
+         
       </div>
    );
 }

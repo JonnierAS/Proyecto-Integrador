@@ -1,8 +1,11 @@
+import { NavLink } from 'react-router-dom';
 import Card from './Card';
+
 
 export default function Cards({characters, onClose, id}) {
    return (
          <div >
+           
             
             {
                
@@ -22,6 +25,7 @@ export default function Cards({characters, onClose, id}) {
                   )
                })
             }
+            
          </div>
    )
 }
