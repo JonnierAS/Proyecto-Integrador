@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  background-color: rgba(4, 68, 2, 0.493);
+  border: 2px solid #03250f;
+  justify-content: space-between;
+}
+
+.btn {
+  left: 30px;
+  margin: 10px;
+  padding: 10px; 
+  color: aliceblue;
+  border: 1px solid #032e12;
+  border-radius: 10px;
+  background-color: rgba(7, 97, 4, 0.493);
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.btn:hover {
+  color: #e6ff04;
+  box-shadow: 0 0 10px rgba(255, 252, 252, 1.5);
+}
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+.img{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px 50px;
+    border: 5px bold #fff;
+}
+
+.detail{
+    position: absolute;
+    margin: 5px;
+    left: 20%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+    
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.548);
+    color: #fff;
+    width: 50%;
+    height: 93vh;
+    border-radius: 20px;
+}
+
+@media(max-width: 900px){
+   .detail{
+    left: 50%;
+    top: 80%;
+    font-size: 13px;
+   }
+   .img{
+    top: 40%;
+    left: 50%;
+   }
+   .container{
+    width: 100%;
+   }
+}

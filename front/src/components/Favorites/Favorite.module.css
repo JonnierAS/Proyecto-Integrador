@@ -1,0 +1,23 @@
+.container{
+    position: relative;
+    display: block;
+}
+
+.selector{
+    background-color: rgba(127, 255, 212, 0.712);
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+}
+
+.selector:hover{
+    background-color: rgba(46, 148, 42, 0.514);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    color: #e6ff04;
+}
+
+h1{
+    color: #e6ff04;
+}
